@@ -1,0 +1,143 @@
+body {
+    margin: 0%;
+    background-color: aliceblue;
+}
+
+nav {
+    text-align: center;
+    padding: 15px;
+    background-color: #fff8;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    height: 50px;
+    display: flex;
+    box-shadow: -7px -8px 20px 0px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+#buscador {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 7px 0px;
+}
+
+#items {
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#itemscolor {
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 1000px;
+    background-image: url("./GettyImages-1339215467.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    text-align: center;
+}
+
+#Mendoza {
+    font-size: 150px;
+}
+
+#solo-turismo {
+    font-size: 70px;
+    position: relative;
+    top: -100px;
+}
+
+#filtro-b {
+    width: 100%;
+    height: 40px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+
+#itemscolor-2 {
+    color: black;
+    text-decoration: none;
+    padding: 0px 50px;
+}
+
+#div-gran-hotel {
+    width: 70%;
+    height: 320px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    left: 80px;
+}
+
+#div-gran-hotel::before {
+    content: "4.5";
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: -10px;
+    background-color: #f00;
+    color: #fff;
+    padding: 25px 25px;
+    border-radius: 100%;
+}
+
+#gran-hotel {
+    width: 600px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    transition: 1.5s all;
+}
+
+#gran-hotel:hover {
+    width: 750px;
+    height: 350px;
+    margin-left: -50px;
+
+}
+
+footer {
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contac {
+    width: 300px;
+    height: 120px;
+    margin: 30px;
+    align-items: center;
+}
+
+a {
+    color: aliceblue;
+}
+
+#boton {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    position: sticky;
+    left: 97%;
+    bottom: 10px;
+    top: 0;
+
+}
